@@ -1,0 +1,90 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 700' width='1000' height='700'>
+    <defs>
+      <linearGradient id='bgGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+        <stop offset='0%' stop-color='#ffffff'/>
+        <stop offset='50%' stop-color='#f8fafc'/>
+        <stop offset='100%' stop-color='#f1f5f9'/>
+      </linearGradient>
+      <linearGradient id='sealGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+        <stop offset='0%' stop-color='#4338ca'/>
+        <stop offset='100%' stop-color='#0f172a'/>
+      </linearGradient>
+      <filter id='dropShadow' x='-10%' y='-10%' width='120%' height='120%'>
+        <feDropShadow dx='0' dy='4' stdDeviation='8' flood-opacity='0.15'/>
+      </filter>
+    </defs>
+    
+    <!-- Background Frame -->
+    <rect width='1000' height='700' fill='url(#bgGrad)'/>
+    
+    <!-- Outer Border -->
+    <rect x='28' y='28' width='944' height='644' rx='8' fill='none' stroke='#4338ca' stroke-width='4' stroke-opacity='0.85'/>
+    <rect x='38' y='38' width='924' height='624' rx='6' fill='none' stroke='#94a3b8' stroke-width='1' stroke-dasharray='6,4'/>
+    
+    <!-- Corner Ornaments -->
+    <circle cx='48' cy='48' r='6' fill='#4338ca'/>
+    <circle cx='952' cy='48' r='6' fill='#4338ca'/>
+    <circle cx='48' cy='652' r='6' fill='#4338ca'/>
+    <circle cx='952' cy='652' r='6' fill='#4338ca'/>
+    
+    <!-- Top Organization Header -->
+    <text x='500' y='110' text-anchor='middle' font-family='Outfit, sans-serif' font-size='15' font-weight='700' letter-spacing='4' fill='#4338ca'>
+      COURSERA GUIDED PROJECTS
+    </text>
+    <text x='500' y='140' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='26' font-weight='800' fill='#0f172a'>
+      Coursera Project Network
+    </text>
+    
+    <!-- Decorative Line -->
+    <line x1='350' y1='165' x2='650' y2='165' stroke='#4338ca' stroke-width='2' stroke-opacity='0.4'/>
+    <circle cx='500' cy='165' r='4' fill='#4338ca'/>
+
+    <!-- Certificate Subtitle -->
+    <text x='500' y='210' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='14' font-weight='500' letter-spacing='2' fill='#64748b'>
+      THIS IS TO CERTIFY THAT
+    </text>
+    
+    <!-- Recipient Name -->
+    <text x='500' y='275' text-anchor='middle' font-family='Outfit, Georgia, serif' font-size='42' font-weight='800' fill='#0f172a' letter-spacing='0.5'>
+      OSAMA AYMAN
+    </text>
+    
+    <text x='500' y='325' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='15' fill='#475569'>
+      has successfully completed all requirements and demonstrated curriculum mastery for
+    </text>
+    
+    <!-- Course Title -->
+    <rect x='150' y='355' width='700' height='70' rx='10' fill='#eef2ff' stroke='#4338ca' stroke-width='1.5' stroke-opacity='0.4'/>
+    <text x='500' y='398' text-anchor='middle' font-family='Outfit, sans-serif' font-size='24' font-weight='800' fill='#4338ca'>
+      Data Analysis Foundations with Google Sheets
+    </text>
+    
+    <!-- Course Description -->
+    <text x='500' y='465' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='14' fill='#64748b'>
+      Proficiency in data manipulation, formulas, pivot tables, data visualization and executive decision reporting.
+    </text>
+    
+    <!-- Bottom Elements: Verification Seal and Signatures -->
+    <!-- Seal Left -->
+    <g transform='translate(150, 520)' filter='url(#dropShadow)'>
+      <circle cx='50' cy='50' r='46' fill='url(#sealGrad)'/>
+      <circle cx='50' cy='50' r='40' fill='none' stroke='#ffffff' stroke-width='2' stroke-dasharray='3,2'/>
+      <text x='50' y='46' text-anchor='middle' font-family='Outfit, sans-serif' font-size='9' font-weight='800' letter-spacing='1' fill='#ffffff'>VERIFIED CREDENTIAL</text>
+      <text x='50' y='62' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='8' font-weight='600' fill='#93c5fd'>OFFICIAL</text>
+    </g>
+    
+    <!-- Center Metadata -->
+    <text x='500' y='575' text-anchor='middle' font-family='JetBrains Mono, monospace' font-size='12' fill='#64748b'>
+      Faculty of Commerce • Zagazig University
+    </text>
+    <text x='500' y='598' text-anchor='middle' font-family='JetBrains Mono, monospace' font-size='11' fill='#94a3b8'>
+      Verified Credential Portfolio Record • Status: Completed
+    </text>
+    
+    <!-- Right Signature Line -->
+    <g transform='translate(720, 525)'>
+      <line x1='0' y1='45' x2='160' y2='45' stroke='#94a3b8' stroke-width='1.5'/>
+      <text x='80' y='40' text-anchor='middle' font-family='Georgia, serif' font-style='italic' font-size='18' fill='#1e293b'>Verified Academic</text>
+      <text x='80' y='62' text-anchor='middle' font-family='Plus Jakarta Sans, sans-serif' font-size='11' font-weight='600' fill='#64748b'>Academic Director</text>
+    </g>
+  </svg>
